@@ -22,6 +22,10 @@ h1 {
     font-size: 2.5em;
     text-shadow: 0 0 20px #c300ff, 0 0 30px #ff00ff;
 }
+a {
+    padding: 10px;
+    text-shadow: 0 0 20px #0044ff, 0 0 30px #4800ffa2;
+}
 
 nav ul {
     list-style: none;
@@ -46,7 +50,7 @@ main {
 section {
     margin: 20px 0;
     padding: 20px;
-    border: 2px solid #a200ff;
+    border: 2px solid #ff0000;
     background-color: #1a1a1a;
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
 }
