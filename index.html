@@ -1,47 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  
-</head>
-<body>
-  <header>
-    <h1>Jane Doe</h1>
-    <p>Web Developer & Designer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+  <head>
+    <title>claidicarabas portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Claidi</a>
+        <span>
+          <a href="#home-section">Home</a>
+          <a href="#about-section">About</a>
+          <a href="#resume-section">Resume</a>
+          <a href="#services-section">Services</a>
+          <a href="#skills-section">Skills</a>
+          <a href="#projects-section">Projects</a>
+          <a href="#contact-section">Contact</a>
+        </span>
+      </div>
     </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Jane, a passionate web developer with experience in creating responsive and user-friendly websites.</p>
-  </section>
+    <section id="home-section" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="text">
+              <span class="subheading">Hello!</span>
+              <h1 class="mb-4 mt-3">I'm <span>Claidi Carabas</span></h1>
+              <h2 class="mb-4">A software developer</h2>
+              <p>
+                <a href="#" class="btn btn-primary py-3 px-4">Hire me</a>
+                <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>A personal portfolio to showcase my skills and projects. Built with HTML, CSS, and JavaScript.</p>
-    </div>
-    <div class="project">
-      <h3>Weather App</h3>
-      <p>A web app that shows the weather using a third-party API. Created using HTML, CSS, and JavaScript.</p>
-    </div>
-  </section>
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="img" style="background-image:url(images/me.jpg); min-height:500px;"></div>
+          </div>
+          <div class="col-lg-7">
+            <h2 class="mb-4">About Me</h2>
+            <p>I am currently a student at Vista College in Maastricht</p>
+            <ul class="about-info mt-4 px-md-0 px-2">
+              <li><span>Name:</span> <span>Claidi Carabas</span></li>
+              <li><span>Date of birth:</span> <span>13, October, 2005</span></li>
+              <li><span>Email:</span> <span>claidicarbas@gmail.com</span></li>
+              <li><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
+            </ul>
+            <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: jane.doe@example.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/janedoe" target="_blank">janedoe</a></p>
-  </section>
+    <section class="ftco-section" id="skills-section">
 
-  <footer>
-    <p>&copy; 2025 Jane Doe</p>
-  </footer>
-</body>
+    </section>
+
+    <section class="ftco-section ftco-project" id="projects-section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>My Projects</h2>
+          <p>These are the projects I've either finished or am halfway done</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img" style="background-image: url(images/vistataskmanager.jpg); min-height:200px;"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Vista Taskmanager</a></h3>
+              <span>Website and database</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img" style="background-image: url(images/spelldash.jpg); min-height:200px;"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Spelldash</a></h3>
+              <span>Side scrolling platformer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>Address</h3>
+            <p>Plutostraat 3 Geleen, Limburg, Nederland</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Contact Number</h3>
+            <p><a href="tel://1234567920">+31 06 33686008</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Email Address</h3>
+            <p><a href="mailto:claidicarbas@gmail.com">claidicarbas@gmail.com</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Github</h3>
+            <p><a href="https://github.com/TrtleUnit" target="_blank">https://github.com/TrtleUnit</a></p>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <h2>About</h2>
+            <p>If you are interested in hiring me. Please reach out!</p>
+          </div>
+          <div class="col-md">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="#home-section">Home</a></li>
+              <li><a href="#about-section">About</a></li>
+              <li><a href="#services-section">Services</a></li>
+              <li><a href="#projects-section">Projects</a></li>
+              <li><a href="#contact-section">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <h2>Want to reach</h2>
+            <ul>
+              <li><span class="icon icon-map-marker"></span><span class="text">Plutostraat 3 Geleen, Limburg, Nederland</span></li>
+              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+31 06 33686008</span></a></li>
+              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">claidicarbas@gmail.com</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
